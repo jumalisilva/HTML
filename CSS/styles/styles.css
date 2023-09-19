@@ -1,0 +1,17 @@
+/* Teste External do CSS */
+
+h3{
+    color: chocolate;
+    font-size: 60px;
+    font-family: Arial;
+}
+
+ul{
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+li{
+    color: darkblue;
+    font-size: 30px;
+}

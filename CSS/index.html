@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira aula de CSS</title>
+
+    <style>
+        /* Internal CSS */
+        p{
+            color:purple;
+            font-size: 40px;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <!-- rel = relação / stylesheet = folha de estilo -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+</head>
+<body>
+    <!-- Inline -->
+    <h1 style="color: red">Mudar cor do título com Inline</h1>
+    <h1 style="color: blue">Outro título com Inline</h1>
+
+    <!-- Fonte do Inline -->
+    <h1 style="color: green; font-size: 50px; border-bottom: 1px solid red;">Cor e tamanho da fonte</h1>
+
+    <!-- Internal CSS - serve para alterar mais de um elemento ao mesmo tempo-->
+    <p>Parágrafo com Estilo Internal</p>
+    <p>Aproveitando a regra do outro parágrafo</p>
+
+    <!-- External CSS -->
+    <h3>Título do External</h3>
+
+    <!-- External CSS em uma lista não ordenada -->
+    <ul>
+        <li>Café</li>
+        <li>Açúcar</li>
+        <li>Bolo</li>
+        <li>Adoçante</li>
+    </ul>
+</body>
+</html>
