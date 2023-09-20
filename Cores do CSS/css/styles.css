@@ -1,0 +1,94 @@
+/* Nome das cores */
+
+.color-name{
+    color: goldenrod;
+}
+
+/* RGB */
+
+.rgb{
+    color: rgb(255, 0, 0);
+}
+
+/* RGB Misturado */
+
+.rgb-misturado{
+    color: rgb(199, 140, 47);
+}
+
+/* RGBA */
+
+.rgba{
+    color: rgba(255, 0, 0, 0.3);
+}
+
+/* HEX */
+
+.hex{
+    color: #55a398;
+}
+
+.hex2{
+    color: #50c78dde;
+}
+
+/* Hexadecimal simplificado */
+
+.hex-simplificado{
+    color: #a5a;
+}
+
+.hex-simplificado2{
+    color: #a6e;
+}
+
+/* HSL */
+
+.hsl{
+    color: hsl(100, 80%, 50%);
+}
+
+.hsl-2{
+    color: hsl(199, 44%, 58%);
+}
+
+/* Background Color no corpo do site */
+
+body{
+    background-color: beige;
+}
+
+/* Background Color */
+
+.backgroundcolor{
+    background-color: black;
+    color: gold;
+}
+
+/* Background Color no Título */
+
+.bg-2{
+    background-color: rgb(100, 50, 33);
+    color: #00ffaa;
+}
+
+/* Sem opacidade no background */
+
+.bg-sem-opacidade{
+    background-color: red;
+}
+
+/* Com opacidade no background */
+
+.bg-com-opacidade{
+    background-color: #888;
+    color: black;
+    opacity: 0.5;
+}
+
+/* RGBA com opacidade */
+
+.rgba-opacidade{
+    background-color: rgba(90, 100, 40, 0.2);
+    color: black;
+}
