@@ -1,0 +1,178 @@
+/* Background Image */
+
+.bgimage{
+    background-image: url(../img/tecnologia.png);
+    padding: 10px;
+    color: yellow;
+}
+
+.bgimg-naocentral, .bgimg-central{
+    background-image: url(../img/senac.png);
+    width: 400px;
+    height: 400px;
+}
+
+.bgimg-central{
+    background-position: center;
+    background-size: cover;
+}
+
+/* Altura e Largura */
+
+.altura-largura{
+    height: 500px;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+.altura-largura-nova{
+    height: 200px;
+    background-color: #999;
+}
+
+/* Padding */
+
+.sem-padding{
+    background-color: aqua;
+    padding: none;
+    width: 200px;
+    height: 200px;
+    color: black;
+}
+
+.com-padding{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+}
+
+/* Padding por lado */
+
+.padding-lados{
+    background-color: crimson;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 5px;
+    padding-bottom: 40px;
+}
+
+/* Shorthand Porperties / Propriedades Abreviadas */
+
+.shorthand-padding{
+    background-color: #333;
+    padding: 6px 12px 18px 24px;
+    color: white;
+}
+
+.shorthand-padding-2{
+    background-color: #555;
+    color: white;
+    padding: 10px 20px; /*é o mesmo que padding: 10px 20px 10px 20px, só foi escrito de forma abreviada*/
+}
+
+/* Borda */
+
+.border{
+    border: 5px solid blue;
+    padding: 10px;
+}
+
+.border-2{
+    border: 2px dotted #785;
+    padding: 25px;
+}
+
+/* Borda individual por lado */
+
+.borda-esquerda{
+    border-left: 10px solid yellowgreen;
+    background-color: #111;
+    color: #fff;
+    padding: 25px;
+}
+
+.borda-inferior{
+    border-bottom: 10px double orange;
+    background-color: #111;
+    color: #fff;
+    padding: 25px;
+}
+
+.borda-direita{
+    border-right: 3px dashed yellow;
+    background-color: #111;
+    color: white;
+    padding: 10px;
+}
+
+.borda-superior{
+    border-top: 10px dotted rgb(223, 30, 191);
+    background-color: #111;
+    color: white;
+    padding: 10px;
+}
+
+/* Borda doferente em todos os lados ao mesmo tempo */
+
+.borda-total{
+    border-left: 5px double rosybrown;
+    border-right: 5px solid yellow;
+    border-top: 5px dotted salmon;
+    border-bottom: 5px dashed orange;
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+/* Borda arredondada */
+
+.paragrafo-arredondado{
+    border: 5px solid red;
+    background-color: burlywood;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Background arredondado */
+.paragrafo-arredondado-2{
+    background-color: burlywood;
+    color: royalblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Margem */
+
+.margem{
+    margin: 10px;
+    background-color: darkblue;
+    color: yellow;
+}
+
+.margem-no-topo{
+    margin-top: 70px;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+
+.margem-diferenciada{
+    background-color: cornflowerblue;
+    margin: 7px 10px 9px 30px;
+}
+
+/* Box Model - todos juntos */
+
+.box-model{
+    background-color: aqua;
+    color: black;
+    width:200px;
+    height: 200px;
+    padding: 10px 10px 15px 25px;
+    border: 5px solid violet;
+    border-radius: 10px;
+    margin: auto;
+}
