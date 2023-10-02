@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+JP:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+JP:wght@100&family=Pixelify+Sans&family=Sedgwick+Ave+Display&display=swap');
+
+/* Este link acima é um link de fonte do google */
+
+/* abrir este link https://fonts.google.com/specimen/Dancing+Script, escolher a fonte, clicar em import, copiar o primeiro link sem o "style", colocar na primeira linha do INDEX. Logo, chamar a classe e na região da fonte colocar a fonte do google. */
+
+/*  Alinhamento de texto */
+
+.alinhamento-direita{
+    text-align: right;
+}
+
+.alinhamento-esquerda{
+    text-align: left;
+}
+
+.centralizar-container{
+    text-align: center;
+    width: 200px;
+    border: 4px solid salmon
+}
+
+.alinhamento-justificado{
+    text-align: justify;
+    color: chocolate;
+    border: 3px solid saddlebrown;
+    width: 200px;
+    padding: 10px;
+    margin: 13px;
+}
+
+/* Text Decoration */
+
+.underline{
+    text-decoration: underline;
+}
+
+.line-through{
+    text-decoration: line-through;
+    color:red;
+}
+
+.overline{
+    text-decoration: overline;
+    color: aquamarine;
+}
+
+.remove-underline{
+    text-decoration: none;
+    color: rosybrown;
+}
+
+/* Espaçamento das letras */
+
+.spacing{
+letter-spacing: 10px;
+color: blue;
+}
+
+/* Fontes */
+
+.fonte-serif{
+font-family: serif;
+color: violet;
+}
+
+.fonte-sans-serif{
+font-family: sans-serif;
+color: rosybrown
+}
+
+.fonte.monospace{
+font-family: monospace;
+color: pink
+}
+
+.fonte-cursive{
+font-family: cursive;
+color: red;
+}
+
+.fonte-fantasy{
+font-family: fantasy;
+color: darkorange;
+}
+
+.trazendo-familiaDeFonte{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Trazendo fonte do Google */
+.importando-fonte{
+    font-family: 'Dancing Script', cursive;
+}
+
+.importando-fonte-2{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Pixelify Sans', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+;
+}
