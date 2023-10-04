@@ -98,9 +98,146 @@ color: darkorange;
 }
 
 .importando-fonte-2{
-    font-family: 'Dancing Script', cursive;
+font-family: 'Dancing Script', cursive;
 font-family: 'Noto Sans JP', sans-serif;
 font-family: 'Pixelify Sans', cursive;
 font-family: 'Sedgwick Ave Display', cursive;
-;
+}
+
+/* Estilo de fonte */
+
+.normal{
+    font-style: normal;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.oblique{
+    font-style: oblique;
+}
+
+/* Espessura da Fonte */
+
+.lighter, .bold, .bolder{
+    font-family: helvetica;
+}
+
+.lighter{
+    font-weight: 100;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.bolder{
+    font-weight: 900;
+}
+
+/* Tamanho da fonte */
+
+.tamanho-30px{
+    font-size: 30px;
+}
+
+.tamanho-150px{
+    font-size: 150px;
+}
+
+.xx-small{
+    font-size: x-small;
+}
+
+.xx-large{
+    font-size: xx-large;
+}
+
+/* Display: bloco embutido */
+
+.inline-block{
+    height: 500px;
+    width: 500px;
+    background-color: #754;
+    font-size: xx-large;
+    color: white;
+    margin: 15px;
+    display: inline-block;
+}
+
+/* Display: bloco de exibição */
+
+.block{
+    background-color: darkmagenta;
+    font-size: xx-large;
+    color: white;
+    margin: 10px;
+    display: block;
+}
+
+/* Escondendo elemento */
+
+.escondendo{
+    display: none;
+}
+
+/* Posição Estática - ele segue o fluxo do HTML, static não é afetado por top, left, right ou bottom */
+
+.static{
+    background-color: #848;
+    color: #fff;
+    height: 100px;
+    width: 100px;
+    position: static;
+}
+
+/* Posição Relativa */
+
+.relative{
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+/* Posição Absoluta - foi parar no topo */
+
+.absolute{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #785;
+    color: #fff;
+    top: 2px;
+    right: 2px;
+}
+/* Position Relative + Absolute */
+
+.bloco-relativo{
+    width: 250px;
+    height: 250px;
+    border: 2px solid blue;
+    margin-top: 100px;
+    position: relative;
+}
+
+.bloco-absoluto-1, .bloco-absoluto-2{
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+    position: absolute;
+}
+
+.bloco-absoluto-1{
+    top: 10px;
+    left: 10px;
+}
+
+.bloco-absoluto-2{
+    bottom: 10px;
+    right: 10px;
 }
