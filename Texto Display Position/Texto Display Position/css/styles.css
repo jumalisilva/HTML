@@ -241,3 +241,70 @@ font-family: 'Sedgwick Ave Display', cursive;
     bottom: 10px;
     right: 10px;
 }
+
+/* Posição fixada */
+
+.bloco-fixado{
+width: 100px;
+height: 100px;
+background-color: blue;
+position: fixed;
+top: 100px;
+color: white;
+}
+
+ 
+
+/* Posição Sticky */
+
+.sticky{
+width: 150px;
+height: 150px;
+background-color: firebrick;
+color: aliceblue;
+border: 2px solid black;
+position: sticky;
+top: 10px;
+margin-left: 900px;
+}
+
+ 
+
+/* z-index
+eu aproveitei o style anterior do ".bloco-relativo" da  Position Relative + Absolute
+*/
+
+.bloco-absoluto-5, .bloco-absoluto-6, .bloco-absoluto-7{
+width: 60px;
+height: 60px;
+background-color: cornflowerblue;
+position: absolute;
+}
+
+ 
+
+/* Separando os blocos por index (posição que vai ficar) */
+
+.bloco-absoluto-5{
+top: 0;
+left: 0;
+z-index: 3;
+}
+
+ 
+
+.bloco-absoluto-6{
+top: 15px;
+left: 15px;
+background-color: blueviolet;
+z-index: 2;
+}
+
+ 
+
+.bloco-absoluto-7{
+top: 30px;
+left: 30px;
+background-color: palevioletred;
+z-index: 1;
+}
