@@ -85,6 +85,17 @@
             </fieldset>
         </div>
 
+        <!-- Fildset e Legend Novo -->
+        <div>
+            <fieldset>
+                <legend>Insira o seu endereço</legend>
+                <label for="rua">Rua:</label>
+                <input type="text" name="rua"/>
+                <label for="bairro">Bairro:</label>
+                <input type="text" name="bairro"/>
+            </fieldset>
+        </div>
+
         <!-- Datalist -->
         <div>
             <label for="livros">Selecione o livro:</label>
@@ -97,6 +108,100 @@
             </datalist>
         </div>
 
+        <!-- Password -->
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha"/>
+        </div>
+
+        <!-- Input Radio -->
+        <div>
+            <label for="genero">Qual o seu gênero:</label>
+            <div class="radio">
+                <input type="radio" value="Feminino" name="genero">
+                <label for="feminino">Feminino</label>
+            </div>
+            <div class="radio">
+                <input type="radio" value="Masculino" name="genero">
+                <label for="masculino">Masculino</label>
+            </div>
+            <div class="radio">
+                <input type="radio" value="Na0-binario" name="genero">
+                <label for="nao-binario">Não-binário</label>
+            </div>
+            <div class="radio">
+                <input type="radio" value="Outro" name="genero">
+                <label for="outro">Outros</label>
+            </div>
+        </div>
+
+        <!-- Input Checkbox -->
+        <div>
+            <label for="linguasestrangeiras">Quais línguas você pretende estudar?</label>
+            <div class="radio">
+                <input type="checkbox" value="ingles" name="linguasestrangeiras">
+                <label for="ingles">Inglês</label>
+            </div>
+            <div class="radio">
+                <input type="checkbox" value="espanhol" name="linguasestrangeiras">
+                <label for="espanhol">Espanhol</label>
+            </div>
+            <div class="radio">
+                <input type="checkbox" value="alemao" name="linguasestrangeiras">
+                <label for="alemao">Alemão</label>
+            </div>
+        </div>
+
+        <!-- Input Data -->
+        <div>
+            <label for="datadenascimento">Data de Nascimento:</label>
+            <input type="date" name="datadenascimento">
+        </div>
+
+        <!-- Input File -->
+        <div>
+            <label for="arquivo">Insira o seu currículo em PDF</label>
+            <input type="file" name="arquivo">
+        </div>
+
+        <!-- Input Number -->
+        <div>
+            <label for="certificados">Qauntos certificados você possui?</label>
+            <input type="number" name="certificados">
+        </div>
+
+        <!-- Input E-mail -->
+        <div>
+            <label for="emailinserido">Insira o seu e-mail:</label>
+            <input type="email" name="emailinserido">
+        </div>
+
+        <!-- Atributo Value -->
+        <div>
+            <label for="confirmaraula">Você assistiu a vídeo aula de treinamento da empresa?</label>
+            <input type="text" value="Confirmo que assisti!" name="confirmaraula">
+        </div>
+
+        <!-- Atributo Disabled -->
+        <div>
+            <p>Informe o seu RG:</p>
+            <input type="text" value="Não precisa preencher" disabled>
+        </div>
+
+        <!-- Atributo Placeholder -->
+        <div>
+            <label for="pesquisa">Como achou o nosso site?</label>
+            <input type="text" name="pesquisa" placeholder="No Google ou Instagram">
+        </div>
+
+        <!-- Atributo Required (campo obrigatório) -->
+        <div>
+            <label for="sobrenome">Digite o seu sobrenome:</label>
+            <input type="text" name="sobrenome" placeholder="Sobrenome Completo" required>
+        </div>
+
+        <!-- Limpando/Resetando formulário -->
+        <input type="reset" value="Limpar">
 
         <!-- Botão Submit -->
         <input type="submit" value="Enviar">
